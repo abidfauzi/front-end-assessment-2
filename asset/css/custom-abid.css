@@ -278,7 +278,10 @@ header {
 	font-family: 'montserratregular', arial, verdana;
 	color: #fff;
 	font-size: 40px;
-	    margin-top: 8px;
+	margin-top: 8px;
+}
+.bottom-header .logo h1 a {
+	color: #fff;
 }
 .bottom-header .logo h1 span {
 	font-size: 60%;
