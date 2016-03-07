@@ -1,0 +1,216 @@
+/*
+
+	Created By Abid FAUZI
+	SoftwareSeni
+
+*/
+
+@import url("custom-abid.css");
+@media screen and (min-width: 1200px) {
+	.wrapper {
+		width: 1170px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.wrapper {
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+@media screen and (max-width: 992px) {
+	
+	.content .col-9.listing-content {
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+	}
+	.content .col-3.sidebar {
+		width: 100%;
+		float: none;
+	}
+	.footer-top .col-3 {
+		width: 50%;
+		height: 340px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.col-9.listing-content .col-4 {
+		width: 50%;
+	}
+	header .wrapper {
+		padding: 0 20px !important;
+	}
+	.bottom-header .col-5, .bottom-header .col-7 {
+		float: none;
+		width: 100%;
+	}
+	.bottom-header .col-5 .logo {
+		text-align: center;
+	}
+	.bottom-header .col-5 .logo h1 {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.footer-logo .col-2 {
+		width: 33.33333333%;
+		height: 80px;
+	}
+	.footer .footer-logo a img {
+		width: 50%;
+	}
+	.footer .footer-logo {
+	    padding-top: 30px;
+	    padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.outer-listing-rows .listing-rows .media-left a {
+		width: 275px;
+		height: 250px
+	}
+	.outer-listing-rows .listing-rows .media-left a img {
+		height: 100%;
+		width: auto;
+	}
+	.outer-listing-rows .listing-rows .media-body .spec ul li {
+		float: left;
+		padding: 12px 10px;
+		font-family: 'robotobold', arial, verdana;
+		font-size: 12px;
+	}
+  .table-recent-sales {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+  .table-recent-sales > .table {
+    margin-bottom: 0;
+  }
+  .table-recent-sales > .table > thead > tr > th,
+  .table-recent-sales > .table > tbody > tr > th,
+  .table-recent-sales > .table > tfoot > tr > th,
+  .table-recent-sales > .table > thead > tr > td,
+  .table-recent-sales > .table > tbody > tr > td,
+  .table-recent-sales > .table > tfoot > tr > td {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+	.table-recent-sales {
+		width: 100%;
+		overflow: scroll;
+	}
+	.footer-logo .col-2 {
+		width: 50%;
+		height: 140px;
+	}
+	.footer .footer-logo a img {
+		width: 70%;
+	}
+	.outer-listing-rows .listing-rows .media-left a {
+		width: 200px;
+		height: 180px
+	}
+	.outer-listing-rows .listing-rows .media-left a img {
+		height: 100%;
+		width: auto;
+	}
+	.outer-listing-rows .listing-rows .media-body h2 {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	.outer-listing-rows .listing-rows .media-body p.type {
+		font-size: 11px;
+		padding-bottom: 8px;
+		margin-bottom: 8px;
+	}
+	.outer-listing-rows .listing-rows .media-body .spec ul li {
+		padding: 8px 10px;
+		font-size: 10px;
+	}
+	.outer-listing-rows .listing-rows .media-body p.description {
+		height: 38px;
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 540px) {
+	.col-9.listing-content .col-4 {
+		width: 100%;
+	}
+	.outer-listing-col .img {
+		height: 280px;
+	}
+	.col-4.col-header {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.bottom-header .col-header h5 {
+		padding-left: 0;
+	}
+	.outer-listing-rows .listing-rows .media-body .spec ul li {
+		padding: 5px 10px;
+		width: 50%;
+		border-right: 1px solid transparent;
+	}
+	.outer-listing-rows .listing-rows .media-left a {
+		width: 180px;
+		height: 160px
+	}
+	.outer-listing-rows .listing-rows .media-body {
+		padding: 10px 10px 0 10px;
+	}
+}
+@media screen and (max-width: 480px) {
+	/*.col-9.listing-content .col-4 {
+		width: 100%;
+	}
+	.outer-listing-col .img a {
+		height: auto
+	}
+	.outer-listing-col .img a img {
+		height: auto;
+		width: 100%;
+	}*/
+	.outer-listing-col .img {
+		height: 240px;
+	}
+	.footer-top .col-3 {
+		width: 100%;
+		float: none;
+		height: auto;
+		margin-bottom: 35px;
+	}
+	.outer-listing-rows .listing-rows .media-left a {
+		width: 150px;
+		height: 150px
+	}
+	.outer-listing-rows .listing-rows .media-body p.description {
+		display: none;
+	}
+	.outer-listing-rows .listing-rows .media-body .icon {
+		left: 5px;
+		top: 73px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.outer-listing-rows .listing-rows .media-left a {
+		width: 120px;
+		height: 140px
+	}
+	.outer-listing-rows .listing-rows .media-body .icon {
+		left: 5px;
+		top: 67px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.wrapper {
+	    padding: 0 10px;
+	}
+}

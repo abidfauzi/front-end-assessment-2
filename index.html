@@ -1,0 +1,1219 @@
+<!-- 
+
+  Created By Abid FAUZI
+  SoftwareSeni
+  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Front-end Assessment</title>
+
+    <!--CSS -->
+    <link href="asset/css/reset.css" rel="stylesheet">
+    <link href="asset/css/custom-abid.css" rel="stylesheet">
+    <link href="asset/css/media.css" rel="stylesheet">
+
+    <!-- <link href="asset/css/jquery-ui.css" rel="stylesheet"> -->
+
+    <link type="text/css" rel="stylesheet" href="asset/fonts/fontawesome/css/font-awesome.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <header id="top">
+      <div class="head-bg-full">
+        <div class="top-header">
+          <div class="wrapper">
+            <div class="content">
+              <div class="row">
+                <div class="col-6 left">
+                  Home / Properties
+                </div>
+                <div class="col-6 right text-right">
+                  <a href="#">Login</a> / <a href="#">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /top-header -->
+        <div class="bottom-header">
+          <div class="wrapper">
+            <div class="content">
+              <div class="row">
+                <div class="col-5">
+                  <div class="logo">
+                    <h1>Realty<span>.com</span></h1>
+                  </div>
+                </div>
+                <div class="col-7">
+                  <div class="row">
+                    <div class="col-4 col-header">
+                      <h3><i class="fa fa-map-marker fa-2x fa-fw"></i> Oak Street 723</h3>
+                      <h5>San Francisco, California</h5>
+                    </div>
+                    <div class="col-4 col-header">
+                      <h3><i class="fa fa-phone fa-2x fa-fw"></i> +123-456-789</h3>
+                      <h5>info@realty.com</h5>
+                    </div>
+                    <div class="col-4 col-header">
+                      <h3><i class="fa fa-clock-o fa-2x fa-fw"></i> Monday - Friday</h3>
+                      <h5>9.00 - 17.00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /row -->
+            </div>
+            
+          </div><!-- /wrapper -->
+        </div><!-- /bottom-header -->
+        <nav class="menu-nav">
+          <div class="wrapper">
+
+           <div id='cssmenu'>
+            <ul>
+               <li><a href='#'>Home</a></li>
+               <li class='active'><a href='#'>Properties</a>
+                  <ul>
+                    <li><a href='#'>All Properties</a></li>
+                    <li><a href='#'>Types</a>
+                        <ul>
+                           <li><a href='#'>Apartment</a></li>
+                           <li><a href='#'>Building Area</a></li>
+                           <li><a href='#'>Condo</a></li>
+                           <li><a href='#'>House</a></li>
+                           <li><a href='#'>Villa</a></li>
+                        </ul>
+                     </li>
+                     <li><a href='#'>Contracts</a>
+                        <ul>
+                           <li><a href='#'>Sub Product</a></li>
+                           <li><a href='#'>Sub Product</a></li>
+                        </ul>
+                     </li>
+                     <li><a href='#'>Locations</a>
+                        <ul>
+                           <li><a href='#'>Sub Product</a></li>
+                           <li><a href='#'>Sub Product</a></li>
+                        </ul>
+                     </li>
+                     <li><a href='#'>Amenities</a>
+                        <ul>
+                           <li><a href='#'>Sub Product</a></li>
+                           <li><a href='#'>Sub Product</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><a href='#'>Rent</a></li>
+               <li><a href='#'>Find And Agent</a></li>
+               <li><a href='#'>About</a></li>
+            </ul>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="content">
+        <div class="row">
+          <div id="tabs" class="col-9 listing-content">
+            <div class="heading">
+              <h1 class="pull-left">All Properties</h1>
+              <div class="pull-right">
+                <ul class="link-tabs">
+                  <li><a href="#tabs-1"><i class="fa fa-th"></i></a></li>
+                  <li><a href="#tabs-2"><i class="fa fa-align-justify"></i></a></li>
+                </ul>
+              </div>
+            <div class="clearfix"></div>
+            </div>
+            <div id="tabs-1" class="row">
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <div class="featured">FEATURED</div>
+                    <a href="#">
+                      <img src="asset/images/listing_1.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_2.jpg" alt="agent">
+                    <h1>Lamb Dale</h1>
+                    <h3 class="price">$ 220,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">1</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">2</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">100 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <a href="#">
+                      <img src="asset/images/listing_2.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_1.jpg" alt="agent">
+                    <h1>Cotton Ridge</h1>
+                    <h3 class="price">$ 320,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">170 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <div class="featured">FEATURED</div>
+                    <div class="top">TOP</div>
+                    <a href="#">
+                      <img src="asset/images/listing_3.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_2.jpg" alt="agent">
+                    <h1>Apricot Alcove</h1>
+                    <h3 class="price">$ 290,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">2</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">180 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <a href="#">
+                      <img src="asset/images/listing_4.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_1.jpg" alt="agent">
+                    <h1>Hush Cottag</h1>
+                    <h3 class="price">$ 510,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">1</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">2</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">165 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <a href="#">
+                      <img src="asset/images/listing_5.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_2.jpg" alt="agent">
+                    <h1>Easy Mill Arbor</h1>
+                    <h3 class="price">$ 260,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">4</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">5</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">460 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <a href="#">
+                      <img src="asset/images/listing_6.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_1.jpg" alt="agent">
+                    <h1>Tawny Hickory</h1>
+                    <h3 class="price">$ 120,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">2</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">175 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <div class="featured">FEATURED/REDUCED</div>
+                    <a href="#">
+                      <img src="asset/images/listing_7.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_2.jpg" alt="agent">
+                    <h1>Bear Ramble</h1>
+                    <h3 class="price">$ 330,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">4</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">380 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <div class="featured">FEATURED</div>
+                    <div class="top">TOP</div>
+                    <a href="#">
+                      <img src="asset/images/listing_8.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_1.jpg" alt="agent">
+                    <h1>Fawn Vale</h1>
+                    <h3 class="price">$ 250,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">4</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">190 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+              <div class="col-4">
+                <div class="outer-listing-col box-shadow">
+                  <div class="img">
+                    <div class="featured">FEATURED</div>
+                    <a href="#">
+                      <img src="asset/images/listing_9.jpg" alt="listing">
+                    </a>
+                  </div>
+                  <div class="description">
+                    <img class="agent" src="asset/images/agent_2.jpg" alt="agent">
+                    <h1>Forest Edge</h1>
+                    <h3 class="price">$ 110,000</h3>
+                  </div>
+                  <div class="spec">
+                    <p>
+                      <span class="pull-left">Baths</span>
+                      <span class="pull-right">2</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Beds</span>
+                      <span class="pull-right">3</span>
+                      <div class="clearfix"></div>
+                    </p>
+                    <p>
+                      <span class="pull-left">Area</span>
+                      <span class="pull-right">240 sqft</span>
+                      <div class="clearfix"></div>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- /col-4 -->
+
+            </div><!-- /row -->
+
+            <!-- listing row style -->
+            <div id="tabs-2" class="row">
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_1.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_2.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_3.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_4.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_5.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_6.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_7.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_8.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_9.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              <div class="col-12">
+                <div class="outer-listing-rows box-shadow">
+                  
+                  <div class="media listing-rows">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_10.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="icon">
+                        <a href="#"><i class="fa fa-heart-o fa-lg"></i></a>
+                        <a href="#"><i class="fa fa-exchange fa-lg"></i></a>
+                      </div>
+                      <h2 class="media-heading">Lamb Dale</h2>
+                      <p class="type">PICO BLVD / PARK / PALO ALTO</p>
+                      <p class="description">
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                      </p>
+
+                      <div class="spec">
+                        <ul>
+                          <li><i class="fa fa-info"></i> Villa</li>
+                          <li><i class="fa fa-money"></i> $ 220,000</li>
+                          <li><i class="fa fa-arrows"></i> 100 sqft</li>
+                          <li>Sold</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div><!-- /col-12 -->
+
+              
+
+            </div><!-- /row -->
+            <!-- /listing row style -->
+
+            <div class="paging">
+                <ul>
+                  <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                  <li><a class="active" href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                  <div class="clearfix"></div>
+                </ul>
+              </div>
+
+              <div class="outer-recent-sales">
+                <div class="heading">
+                  <h1>Recent Sales</h1>
+                </div>
+                <div class="table-recent-sales">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th class="text-left">Address</th>
+                        <th>Sold Date</th>
+                        <th>Bed</th>
+                        <th>Bath</th>
+                        <th>Car</th>
+                        <th class="text-right">Sale Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                      <tr>
+                        <td class="address">NAILSWORTH</td>
+                        <td class="text-center">25-02-2014</td>
+                        <td class="text-center">3</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">4</td>
+                        <td class="text-right">$ 456,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+          </div>
+          <div class="col-3 sidebar">
+            <div class="outer-white box-shadow">
+              <h2>Our Agents</h2>
+                  
+              <div class="media our-agents">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/agent_1.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">John Redmond</h4>
+                  <p class="at"><i class="fa fa-at fa-fw"></i> info@realty.com</p>
+                  <p class="phone"><i class="fa fa-phone fa-fw"></i> +123-456-789</p>
+                </div>
+              </div>
+
+              <div class="media our-agents">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/agent_2.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Clare Collins</h4>
+                  <p class="at"><i class="fa fa-at fa-fw"></i> info@realty.com</p>
+                  <p class="phone"><i class="fa fa-phone fa-fw"></i> +123-456-789</p>
+                </div>
+              </div>
+
+              <div class="media our-agents">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/agent_1.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">John Penning</h4>
+                  <p class="at"><i class="fa fa-at fa-fw"></i> info@realty.com</p>
+                  <p class="phone"><i class="fa fa-phone fa-fw"></i> +123-456-789</p>
+                </div>
+              </div>
+            </div><!-- /outer-white -->
+
+            <div class="outer-featured-properties">
+              <h2>Featured Properties</h2>
+
+              <div class="media recent-properties">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/listing_1.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Lamb Dale</h4>
+                  <p class="type">Villa</p>
+                  <p class="price">$ 220,000</p>
+                </div>
+              </div>
+
+              <div class="media recent-properties">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/listing_2.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Cotton Ridge</h4>
+                  <p class="type">House</p>
+                  <p class="price">$ 340,000</p>
+                </div>
+              </div>
+
+              <div class="media recent-properties">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/listing_3.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Apricot Alcove</h4>
+                  <p class="type">Apartment</p>
+                  <p class="price">$ 125,000</p>
+                </div>
+              </div>
+
+              <div class="media recent-properties">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/listing_3.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Fawn Vale</h4>
+                  <p class="type">House</p>
+                  <p class="price">$ 250,000</p>
+                </div>
+              </div>
+
+              <div class="media recent-properties">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/images/listing_3.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">Forest Edge</h4>
+                  <p class="type">Building Area</p>
+                  <p class="price">$ 145,000</p>
+                </div>
+              </div>
+
+            </div><!-- /outer-fearured-properties -->
+
+          </div><!-- /col-3 sidebar -->
+          
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+	
+
+    <footer>
+    	<div class="footer">
+        <div class="footer-logo">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-2">
+                <a href="#"><img src="asset/images/logo_sweethome.png"></a>
+              </div>
+              <div class="col-2">
+                <a href="#"><img src="asset/images/logo_rooftops.png"></a>
+              </div>
+              <div class="col-2">
+                <a href="#"><img src="asset/images/logo_builders.png"></a>
+              </div>
+              <div class="col-2">
+                <a href="#"><img src="asset/images/logo_reality.png"></a>
+              </div>
+              <div class="col-2">
+                <a href="#"><img src="asset/images/logo_myhouse.png"></a>
+              </div>
+              <div class="col-2">
+                <a href="#"><img src="asset/images/logo_newhome.png"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+    		<div class="container">
+          <div class="footer-top">
+            <div class="wrapper">
+
+              <div class="row">
+                <div class="col-3">
+                  <h3>Recent Properties</h3>
+
+                  <div class="media recent-properties">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_1.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Lamb Dale</h4>
+                      <p class="type">Villa</p>
+                      <p class="price">$ 220,000</p>
+                    </div>
+                  </div>
+
+                  <div class="media recent-properties">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_2.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Cotton Ridge</h4>
+                      <p class="type">House</p>
+                      <p class="price">$ 340,000</p>
+                    </div>
+                  </div>
+
+                  <div class="media recent-properties">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/listing_3.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Apricot Alcove</h4>
+                      <p class="type">Apartment</p>
+                      <p class="price">$ 125,000</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-3">
+                  <h3>Quick Links</h3>
+                  <ul class="quick-links">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Property Management</a></li>
+                    <li><a href="#">Rentals</a></li>
+                    <li><a href="#">Project Marketing</a></li>
+                    <li><a href="#">Off-the-plan Sales</a></li>
+                    <li><a href="#">Strata Management</a></li>
+                  </ul>
+                </div>
+                <div class="col-3">
+                  <h3>Our Agents</h3>
+                  
+                  <div class="media our-agents">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/agent_1.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">John Redmond</h4>
+                      <p class="at"><i class="fa fa-at fa-fw"></i> info@realty.com</p>
+                      <p class="phone"><i class="fa fa-phone fa-fw"></i> +123-456-789</p>
+                    </div>
+                  </div>
+
+                  <div class="media our-agents">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/agent_2.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Clare Collins</h4>
+                      <p class="at"><i class="fa fa-at fa-fw"></i> info@realty.com</p>
+                      <p class="phone"><i class="fa fa-phone fa-fw"></i> +123-456-789</p>
+                    </div>
+                  </div>
+
+                  <div class="media our-agents">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="asset/images/agent_1.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">John Penning</h4>
+                      <p class="at"><i class="fa fa-at fa-fw"></i> info@realty.com</p>
+                      <p class="phone"><i class="fa fa-phone fa-fw"></i> +123-456-789</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-3 contact">
+                  <h3>Contact</h3>
+                  <table border="1" class="full-width">
+                    <tr>
+                      <td>
+                        <label>
+                          <i class="fa fa-map-marker fa-fw fa-lg"></i> Address
+                        </label>
+                      </td>
+                      <td>
+                        1900 Pico Blvd <br />
+                        Santa Monica, CA 90405<br />
+                        United States
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>
+                          <i class="fa fa-phone fa-fw fa-lg"></i> Phone
+                        </label>
+                      </td>
+                      <td>
+                        +48 123 456 789
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>
+                          <i class="fa fa-at fa-fw fa-lg"></i> E-mail
+                        </label>
+                      </td>
+                      <td>
+                        info@realty.com
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>
+                          <i class="fa fa-skype fa-fw fa-lg"></i> Skype
+                        </label>
+                      </td>
+                      <td>
+                        realty
+                      </td>
+                    </tr>
+                  </table>
+                  <ul class="social">
+                    <li><a href="#" title="Facebook"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li><a href="#" title="Twitter"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li><a href="#" title="Instagram"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                    <li><a href="#" title="Google Plus"><i class="fa fa-youtube fa-lg"></i></a></li>
+                    <div class="clearfix"></div>
+                  </ul>
+                </div>
+                <div class="clearfix"></div>
+              </div><!-- /outer-footer-list -->
+
+            </div>
+          </div><!-- /footer-top -->
+          <div class="footer-bottom">
+    				<div class="wrapper text-center">
+    					<a href="#top"><i class="fa fa-angle-up fa-4x"></i></a>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="asset/js/jquery-1.9.1.min.js"></script>
+    <script src="asset/js/jquery-ui.js"></script>
+    <script>
+      $(function() {
+        $( "#tabs" ).tabs();
+      });
+    </script>
+    <script src="asset/js/script.js"></script>
+	</body>
+</html>
