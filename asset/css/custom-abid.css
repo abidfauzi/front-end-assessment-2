@@ -418,7 +418,8 @@ ul.link-tabs li a:hover, ul.link-tabs li.ui-tabs-active a {
 .outer-listing-col .img {
 	position: relative;
 	overflow: hidden;
-	height: 200px;
+	/*height: 200px;*/
+	padding-bottom: 75%;
 }
 .outer-listing-col .img a {
 	height: 200%;
